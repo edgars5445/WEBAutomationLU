@@ -2,7 +2,7 @@ Feature: Oracle sign up test
 
     @signup
     Scenario: Sign up with new user
-      Given User has opened Oracle Profile Page
+      Given User has opened Oracle Profile page
       When User presses the Create Account button
       And User fills out create account form
       And User presses the Sign Up button

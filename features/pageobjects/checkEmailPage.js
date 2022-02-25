@@ -1,11 +1,11 @@
-import {BasePage} from './basePage'
+import {BasePage} from "./basePage"
 
-export class CheckEmailPage extends BasePage{
-    getCheckEmailHeader(){
-        return $('.x28a');
+export class CheckEmailPage extends BasePage {
+    getCheckEmailHeader() {
+        return $('.x28a')
     }
 
-    getEmailText(){
-        return $('//span[@class="x283"][1]');
+    getEmailText() {
+        return $('//span[@class="x283"][1]')
     }
 }

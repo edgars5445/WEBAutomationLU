@@ -1,6 +1,6 @@
 import { NavigationTest } from "../testobjects/navigationTest";
-import { LoginTest } from '../testobjects/loginTest';
-import { SignupTest } from '../testobjects/signupTest';
+import { LoginTest } from "../testobjects/loginTest";
+import {SignupTest} from "../testobjects/signupTest";
 
 class Tests {
   constructor() {

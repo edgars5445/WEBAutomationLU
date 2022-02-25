@@ -1,7 +1,7 @@
 import UserData from "./data/userData";
 
 class Data {
-    constructor(){
+    constructor() {
         this.userData = new UserData();
     }
 }

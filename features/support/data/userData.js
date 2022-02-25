@@ -1,7 +1,7 @@
 const { faker } = require("@faker-js/faker");
 
-export default class UserData{
-    constructor(){
+export default class UserData {
+    constructor() {
         this.oracleUser = new OracleUser(
             faker.internet.email(),
             "Aaaa1234$",
@@ -15,7 +15,7 @@ export default class UserData{
             faker.address.city(),
             faker.address.zipCode(),
             "Cesu"
-        );
+        )
     }
 }
 
@@ -44,7 +44,7 @@ class OracleUser {
       this.company = company;
       this.address = address;
       this.city = city;
-      this.postCode = postCode;  
+      this.postCode = postCode;
       this.state = state;
   }
 }
